@@ -1,0 +1,55 @@
+a, h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-fluid {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.container-cards-flex {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2%;
+    margin: 3% auto;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+
+.container-cards-flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2%;
+    margin: 3% auto;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+
+.container-cards-flex .card {
+    width: 35%;
+    flex: 1 1 30%;
+}
+
+.card mb-3 {
+    margin-left: 20%;
+}
+
+.footer-cards {
+    margin-top: 15%;
+}
+
+.card-compra {
+    height: 40%;
+}
+
+.botao-compra {
+    margin-left: 2%;
+}
